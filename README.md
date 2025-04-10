@@ -277,23 +277,7 @@ The `plot_cost()` method generates a plot showing how the loss function value ch
 - Can identify issues like oscillation or slow convergence
 - Example from the MNIST training:
 
-```
-Loss vs. Epochs
-|
-|    *
-|     *
-|      *
-|       *
-Loss     *
-|         **
-|           **
-|             ***
-|                ****
-|                    *******
-|                           ***************
------------------------------------------
-           Epochs
-```
+![Loss vs. Epochs](image/image.png)
 
 #### Accuracy Curves
 The `plot_accuracy()` method generates plots for both training and test accuracy over epochs:
@@ -302,7 +286,6 @@ The `plot_accuracy()` method generates plots for both training and test accuracy
 - Helps determine optimal training duration
 - Example from the MNIST training:
 
-![Loss vs. Epochs](image/image.png)
 ![Accuracy vs. Epochs](image/1744290699868.png)
 
 ### Model Evaluation Visualizations
