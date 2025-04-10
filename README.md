@@ -1,3 +1,5 @@
+[![MIT License](https://img.shields.io/badge/IUST-Mathematic&CE-Green.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
 # ANN-AICE403: Multilayer Perceptron Neural Network Implementation
 
 ## Project Overview
@@ -409,16 +411,5 @@ The implementation includes comprehensive testing functions to verify various co
 - Forward and backward propagation
 - Full model performance on MNIST dataset
 
-## Running the Project
-To run the complete project:
 
-```python
-if __name__ == "__main__":
-    main()
-```
-
-## Requirements
-- NumPy
-- Matplotlib
-- Scikit-learn (for data handling and evaluation metrics)
-- Seaborn (for confusion matrix visualization)
+[Mohammad Mahdi Sharifbeigy](https://github.com/MohammadMahdi-Sharifbeigy)
